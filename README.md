@@ -1,30 +1,52 @@
-# Smart medicine reminder
+# 💊 Smart Medicine Reminder
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A smart AI-powered reminder system that helps patients take medicines on time, reduces missed doses, and provides caregivers with valuable insights.  
+Built for **Medi-Hacks 2025** (Telehealth & Remote Care track).
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/atharvmahajan2005-gmailcoms-projects/v0-smart-medicine-reminder)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/5RYRXZfBjQX)
+---
 
-## Overview
+## 🚀 Problem Statement
+Medication non-adherence is one of the biggest challenges in healthcare:
+- **50% of patients** do not take their medications as prescribed.  
+- Leads to increased hospitalizations, treatment failures, and avoidable healthcare costs.  
+- Elderly and chronically ill patients are most affected.  
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+**Smart Medicine Reminder** solves this problem by providing intelligent, personalized, and easy-to-use medication reminders.
 
-## Deployment
+---
 
-Your project is live at:
+## 💡 Solution
+A web-based AI-enabled app that:
+- Reminds patients to take medicines on time  
+- Allows patients to confirm intake  
+- Notifies caregivers/doctors if a critical dose is missed  
+- Provides a log of medication adherence over time  
 
-**[https://vercel.com/atharvmahajan2005-gmailcoms-projects/v0-smart-medicine-reminder](https://vercel.com/atharvmahajan2005-gmailcoms-projects/v0-smart-medicine-reminder)**
+---
 
-## Build your app
+## ✨ Features
+- 📅 **Smart Scheduling**: Set medicine reminders by time, frequency, or custom rules.  
+- 🔔 **Multi-Channel Notifications**: Web push (future: SMS/Email/WhatsApp).  
+- 🤖 **AI Chat Assistant**: Add reminders using natural language (e.g., *“Remind me to take insulin after lunch”*).  
+- 📊 **Adherence Analytics**: Track doses taken/missed, generate reports.  
+- 🧑‍⚕️ **Caregiver Dashboard**: Family members/doctors can monitor patient’s adherence.  
+- 🌐 **Cross-Platform**: Runs in any browser, deployable via Vercel.  
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/projects/5RYRXZfBjQX](https://v0.app/chat/projects/5RYRXZfBjQX)**
+## 🛠️ Tech Stack
+- **Frontend**: TypeScript, React, Tailwind CSS  
+- **Backend/Hosting**: Vercel (Serverless)  
+- **AI**: OpenAI API (for conversational assistant)  
+- **Notifications**: Browser Push API (extensible to Twilio/Email)  
+- **Database**: (Optional) Supabase/PostgreSQL for persistence  
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+
+
+## ⚙️ Installation & Setup
+Clone the repository:
+```bash
+git clone https://github.com/Atharvm05/Smart-medicine-reminder.git
+cd Smart-medicine-reminder
